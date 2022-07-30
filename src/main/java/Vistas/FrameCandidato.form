@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="215" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="jTabbedPane1" min="-2" pref="601" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="17" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="8" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Sitka Text" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Registro de candidatos"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder/>
+              </Border>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Registrar informaci&#xf3;n">
+                <Property name="tabTitle" type="java.lang.String" value="Registrar informaci&#xf3;n"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="77" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="contrasenaCandi" min="-2" pref="350" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jScrollPane7" alignment="1" max="32767" attributes="0"/>
+                              <Component id="ciudadCandidato" alignment="0" max="32767" attributes="0"/>
+                              <Component id="partidoPoli" alignment="0" pref="352" max="32767" attributes="0"/>
+                              <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPane6" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPane4" alignment="0" min="-2" pref="120" max="-2" attributes="0"/>
+                              <Component id="jScrollPane8" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPane5" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                              <Component id="guardarCandidato" min="-2" pref="167" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                              <Component id="cancelarCandidato" min="-2" pref="167" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Error_label" min="-2" pref="301" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane8" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jScrollPane4" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="partidoPoli" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ciudadCandidato" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="jScrollPane6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane7" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="jScrollPane5" min="-2" pref="50" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="contrasenaCandi" alignment="3" pref="30" max="32767" attributes="0"/>
+                                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="Error_label" min="-2" pref="17" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="guardarCandidato" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cancelarCandidato" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Numero de documento:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombre:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tel&#xe9;fono:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Biografia:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Partido p&#xf3;litico:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ciudad de origen:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mensaje de campa&#xf1;a:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Propuesta:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextPane" name="nombreCandidato">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextPane" name="tlfCandidato">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JComboBox" name="partidoPoli">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="15">
+                    <StringItem index="0" value="seleccione una opci&#xf3;n"/>
+                    <StringItem index="1" value="Partido Social Colombiano"/>
+                    <StringItem index="2" value="Centro Democr&#xe1;tico"/>
+                    <StringItem index="3" value="Movimiento Revolucionario Liberal"/>
+                    <StringItem index="4" value="Alianza Nacional Popular"/>
+                    <StringItem index="5" value="Movimiento 19 de Abril"/>
+                    <StringItem index="6" value="Polo Democr&#xe1;tico Alternativo"/>
+                    <StringItem index="7" value="Polo Democr&#xe1;tico Independiente"/>
+                    <StringItem index="8" value="Alternativa Democr&#xe1;tica"/>
+                    <StringItem index="9" value="Movimiento de Salvaci&#xf3;n Nacional"/>
+                    <StringItem index="10" value="Partido Comunista de Colombia"/>
+                    <StringItem index="11" value="Uni&#xf3;n Patri&#xf3;tica"/>
+                    <StringItem index="12" value="Movimiento Obrero Independiente y Revolucionario"/>
+                    <StringItem index="13" value="Movimiento MIRA"/>
+                    <StringItem index="14" value="Colombia Humana"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="ciudadCandidato">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="1121">
+                    <StringItem index="0" value="seleccione una opci&#xf3;n"/>
+                    <StringItem index="1" value="Abejorral&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="2" value="Abrego&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="3" value="Abriaqu&#xed;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="4" value="Acac&#xed;as&#x9;-&#x9;Meta"/>
+                    <StringItem index="5" value="Acand&#xed;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="6" value="Acevedo&#x9;-&#x9;Huila"/>
+                    <StringItem index="7" value="Ach&#xed;&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="8" value="Agrado&#x9;-&#x9;Huila"/>
+                    <StringItem index="9" value="Agua de Dios&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="10" value="Aguachica&#x9;-&#x9;Cesar"/>
+                    <StringItem index="11" value="Aguada&#x9;-&#x9;Santander"/>
+                    <StringItem index="12" value="Aguadas&#x9;-&#x9;Caldas"/>
+                    <StringItem index="13" value="Aguazul&#x9;-&#x9;Casanare"/>
+                    <StringItem index="14" value="Agust&#xed;n Codazzi&#x9;-&#x9;Cesar"/>
+                    <StringItem index="15" value="Aipe&#x9;-&#x9;Huila"/>
+                    <StringItem index="16" value="Alb&#xe1;n&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="17" value="Alb&#xe1;n&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="18" value="Albania&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="19" value="Albania&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="20" value="Albania&#x9;-&#x9;Santander"/>
+                    <StringItem index="21" value="Alcal&#xe1;&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="22" value="Aldana&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="23" value="Alejandr&#xed;a&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="24" value="Algarrobo&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="25" value="Algeciras&#x9;-&#x9;Huila"/>
+                    <StringItem index="26" value="Almaguer&#x9;-&#x9;Cauca"/>
+                    <StringItem index="27" value="Almeida&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="28" value="Alpujarra&#x9;-&#x9;Tolima"/>
+                    <StringItem index="29" value="Altamira&#x9;-&#x9;Huila"/>
+                    <StringItem index="30" value="Alto Baud&#xf3;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="31" value="Altos del Rosario&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="32" value="Alvarado&#x9;-&#x9;Tolima"/>
+                    <StringItem index="33" value="Amag&#xe1;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="34" value="Amalfi&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="35" value="Ambalema&#x9;-&#x9;Tolima"/>
+                    <StringItem index="36" value="Anapoima&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="37" value="Ancuya&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="38" value="Andaluc&#xed;a&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="39" value="Andes&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="40" value="Angel&#xf3;polis&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="41" value="Angostura&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="42" value="Anolaima&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="43" value="Anor&#xed;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="44" value="Anserma&#x9;-&#x9;Caldas"/>
+                    <StringItem index="45" value="Ansermanuevo&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="46" value="Anza&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="47" value="Anzo&#xe1;tegui&#x9;-&#x9;Tolima"/>
+                    <StringItem index="48" value="Apartad&#xf3;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="49" value="Ap&#xed;a&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="50" value="Apulo&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="51" value="Aquitania&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="52" value="Aracataca&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="53" value="Aranzazu&#x9;-&#x9;Caldas"/>
+                    <StringItem index="54" value="Aratoca&#x9;-&#x9;Santander"/>
+                    <StringItem index="55" value="Arauca&#x9;-&#x9;Arauca"/>
+                    <StringItem index="56" value="Arauquita&#x9;-&#x9;Arauca"/>
+                    <StringItem index="57" value="Arbel&#xe1;ez&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="58" value="Arboleda&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="59" value="Arboledas&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="60" value="Arboletes&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="61" value="Arcabuco&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="62" value="Arenal del Sur&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="63" value="Argelia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="64" value="Argelia&#x9;-&#x9;Cauca"/>
+                    <StringItem index="65" value="Argelia&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="66" value="Ariguan&#xed;&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="67" value="Arjona&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="68" value="Armenia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="69" value="Armenia&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="70" value="Armero&#x9;-&#x9;Tolima"/>
+                    <StringItem index="71" value="Arroyohondo&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="72" value="Astrea&#x9;-&#x9;Cesar"/>
+                    <StringItem index="73" value="Ataco&#x9;-&#x9;Tolima"/>
+                    <StringItem index="74" value="Atrato&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="75" value="Ayapel&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="76" value="Bagad&#xf3;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="77" value="Bah&#xed;a Solano&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="78" value="Bajo Baud&#xf3;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="79" value="Balboa&#x9;-&#x9;Cauca"/>
+                    <StringItem index="80" value="Balboa&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="81" value="Baranoa&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="82" value="Baraya&#x9;-&#x9;Huila"/>
+                    <StringItem index="83" value="Barbacoas&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="84" value="Barbosa&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="85" value="Barbosa&#x9;-&#x9;Santander"/>
+                    <StringItem index="86" value="Barichara&#x9;-&#x9;Santander"/>
+                    <StringItem index="87" value="Barranca de Up&#xed;a&#x9;-&#x9;Meta"/>
+                    <StringItem index="88" value="Barrancabermeja&#x9;-&#x9;Santander"/>
+                    <StringItem index="89" value="Barrancas&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="90" value="Barranco de Loba&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="91" value="Barranco Minas&#x9;-&#x9;Guain&#xed;a"/>
+                    <StringItem index="92" value="Barranquilla&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="93" value="Becerril&#x9;-&#x9;Cesar"/>
+                    <StringItem index="94" value="Belalc&#xe1;zar&#x9;-&#x9;Caldas"/>
+                    <StringItem index="95" value="Bel&#xe9;n&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="96" value="Bel&#xe9;n&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="97" value="Bel&#xe9;n de Andaquies&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="98" value="Bel&#xe9;n de Bajir&#xe1;&#x9;-&#x9;Choc&#xf3;[1][3]"/>
+                    <StringItem index="99" value="Bel&#xe9;n de Umbr&#xed;a&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="100" value="Bello&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="101" value="Belmira&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="102" value="Beltr&#xe1;n&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="103" value="Berbeo&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="104" value="Betania&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="105" value="Bet&#xe9;itiva&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="106" value="Betulia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="107" value="Betulia&#x9;-&#x9;Santander"/>
+                    <StringItem index="108" value="Bituima&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="109" value="Boavita&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="110" value="Bochalema&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="111" value="Bogot&#xe1;&#x9;-&#x9;Capital District"/>
+                    <StringItem index="112" value="Bojac&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="113" value="Bojay&#xe1;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="114" value="Bol&#xed;var&#x9;-&#x9;Cauca"/>
+                    <StringItem index="115" value="Bol&#xed;var&#x9;-&#x9;Santander"/>
+                    <StringItem index="116" value="Bol&#xed;var&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="117" value="Bosconia&#x9;-&#x9;Cesar"/>
+                    <StringItem index="118" value="Boyac&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="119" value="Brice&#xf1;o&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="120" value="Brice&#xf1;o&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="121" value="Bucaramanga&#x9;-&#x9;Santander"/>
+                    <StringItem index="122" value="Bucarasica&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="123" value="Buenaventura&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="124" value="Buenavista&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="125" value="Buenavista&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="126" value="Buenavista&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="127" value="Buenavista&#x9;-&#x9;Sucre"/>
+                    <StringItem index="128" value="Buenos Aires&#x9;-&#x9;Cauca"/>
+                    <StringItem index="129" value="Buesaco&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="130" value="Bugalagrande&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="131" value="Buritic&#xe1;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="132" value="Busbanz&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="133" value="Cabrera&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="134" value="Cabrera&#x9;-&#x9;Santander"/>
+                    <StringItem index="135" value="Cabuyaro&#x9;-&#x9;Meta"/>
+                    <StringItem index="136" value="Cacahual&#x9;-&#x9;Guain&#xed;a"/>
+                    <StringItem index="137" value="C&#xe1;ceres&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="138" value="Cachipay&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="139" value="C&#xe1;chira&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="140" value="C&#xe1;cota&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="141" value="Caicedo&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="142" value="Caicedonia&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="143" value="Caimito&#x9;-&#x9;Sucre"/>
+                    <StringItem index="144" value="Cajamarca&#x9;-&#x9;Tolima"/>
+                    <StringItem index="145" value="Cajibio&#x9;-&#x9;Cauca"/>
+                    <StringItem index="146" value="Cajic&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="147" value="Calamar&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="148" value="Calamar&#x9;-&#x9;Guaviare"/>
+                    <StringItem index="149" value="Calarc&#xe1;&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="150" value="Caldas&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="151" value="Caldas&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="152" value="Caldono&#x9;-&#x9;Cauca"/>
+                    <StringItem index="153" value="Cali&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="154" value="California&#x9;-&#x9;Santander"/>
+                    <StringItem index="155" value="Calima&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="156" value="Caloto&#x9;-&#x9;Cauca"/>
+                    <StringItem index="157" value="Campamento&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="158" value="Campo de La Cruz&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="159" value="Campoalegre&#x9;-&#x9;Huila"/>
+                    <StringItem index="160" value="Campohermoso&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="161" value="Canalete&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="162" value="Candelaria&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="163" value="Candelaria&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="164" value="Cantagallo&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="165" value="Ca&#xf1;asgordas&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="166" value="Caparrap&#xed;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="167" value="Capitanejo&#x9;-&#x9;Santander"/>
+                    <StringItem index="168" value="C&#xe1;queza&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="169" value="Caracol&#xed;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="170" value="Caramanta&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="171" value="Carcas&#xed;&#x9;-&#x9;Santander"/>
+                    <StringItem index="172" value="Carepa&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="173" value="Carmen de Apical&#xe1;&#x9;-&#x9;Tolima"/>
+                    <StringItem index="174" value="Carmen de Bolivar&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="175" value="Carmen de Carupa&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="176" value="Carolina&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="177" value="Cartagena&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="178" value="Cartagena del Chair&#xe1;&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="179" value="Cartago&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="180" value="Carur&#xfa;&#x9;-&#x9;Vaup&#xe9;s"/>
+                    <StringItem index="181" value="Casabianca&#x9;-&#x9;Tolima"/>
+                    <StringItem index="182" value="Castilla la Nueva&#x9;-&#x9;Meta"/>
+                    <StringItem index="183" value="Caucasia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="184" value="Cepit&#xe1;&#x9;-&#x9;Santander"/>
+                    <StringItem index="185" value="Ceret&#xe9;&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="186" value="Cerinza&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="187" value="Cerrito&#x9;-&#x9;Santander"/>
+                    <StringItem index="188" value="Cerro San Antonio&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="189" value="C&#xe9;rtegui&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="190" value="Chachag&#xfc;&#xed;&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="191" value="Chaguan&#xed;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="192" value="Chal&#xe1;n&#x9;-&#x9;Sucre"/>
+                    <StringItem index="193" value="Ch&#xe1;meza&#x9;-&#x9;Casanare"/>
+                    <StringItem index="194" value="Chaparral&#x9;-&#x9;Tolima"/>
+                    <StringItem index="195" value="Charal&#xe1;&#x9;-&#x9;Santander"/>
+                    <StringItem index="196" value="Charta&#x9;-&#x9;Santander"/>
+                    <StringItem index="197" value="Ch&#xed;a&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="198" value="Chibolo&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="199" value="Chigorod&#xf3;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="200" value="Chima&#x9;-&#x9;Santander"/>
+                    <StringItem index="201" value="Chim&#xe1;&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="202" value="Chimichagua&#x9;-&#x9;Cesar"/>
+                    <StringItem index="203" value="Chin&#xe1;cota&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="204" value="Chinavita&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="205" value="Chinchin&#xe1;&#x9;-&#x9;Caldas"/>
+                    <StringItem index="206" value="Chin&#xfa;&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="207" value="Chipaque&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="208" value="Chipat&#xe1;&#x9;-&#x9;Santander"/>
+                    <StringItem index="209" value="Chiquinquir&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="210" value="Ch&#xed;quiza&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="211" value="Chiriguan&#xe1;&#x9;-&#x9;Cesar"/>
+                    <StringItem index="212" value="Chiscas&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="213" value="Chita&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="214" value="Chitag&#xe1;&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="215" value="Chitaraque&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="216" value="Chivat&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="217" value="Chivor&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="218" value="Choach&#xed;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="219" value="Chocont&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="220" value="Cicuco&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="221" value="Ci&#xe9;naga&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="222" value="Ci&#xe9;naga de Oro&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="223" value="Ci&#xe9;nega&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="224" value="Cimitarra&#x9;-&#x9;Santander"/>
+                    <StringItem index="225" value="Circasia&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="226" value="Cisneros&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="227" value="ciuada&#x9;&#x9;"/>
+                    <StringItem index="228" value="Ciudad Bol&#xed;var&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="229" value="Clemencia&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="230" value="Cocorn&#xe1;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="231" value="Coello&#x9;-&#x9;Tolima"/>
+                    <StringItem index="232" value="Cogua&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="233" value="Colombia&#x9;-&#x9;Huila"/>
+                    <StringItem index="234" value="Col&#xf3;n&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="235" value="Col&#xf3;n&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="236" value="Colos&#xf3;&#x9;-&#x9;Sucre"/>
+                    <StringItem index="237" value="C&#xf3;mbita&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="238" value="Concepci&#xf3;n&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="239" value="Concepci&#xf3;n&#x9;-&#x9;Santander"/>
+                    <StringItem index="240" value="Concordia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="241" value="Concordia&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="242" value="Condoto&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="243" value="Confines&#x9;-&#x9;Santander"/>
+                    <StringItem index="244" value="Consaca&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="245" value="Contadero&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="246" value="Contrataci&#xf3;n&#x9;-&#x9;Santander"/>
+                    <StringItem index="247" value="Convenci&#xf3;n&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="248" value="Copacabana&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="249" value="Coper&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="250" value="C&#xf3;rdoba&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="251" value="C&#xf3;rdoba&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="252" value="C&#xf3;rdoba&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="253" value="Corinto&#x9;-&#x9;Cauca"/>
+                    <StringItem index="254" value="Coromoro&#x9;-&#x9;Santander"/>
+                    <StringItem index="255" value="Corozal&#x9;-&#x9;Sucre"/>
+                    <StringItem index="256" value="Corrales&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="257" value="Cota&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="258" value="Cotorra&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="259" value="Covarach&#xed;a&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="260" value="Cove&#xf1;as&#x9;-&#x9;Sucre"/>
+                    <StringItem index="261" value="Coyaima&#x9;-&#x9;Tolima"/>
+                    <StringItem index="262" value="Cravo Norte&#x9;-&#x9;Arauca"/>
+                    <StringItem index="263" value="Cuaspud&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="264" value="Cubar&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="265" value="Cubarral&#x9;-&#x9;Meta"/>
+                    <StringItem index="266" value="Cucaita&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="267" value="Cucunub&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="268" value="C&#xfa;cuta&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="269" value="Cucutilla&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="270" value="Cu&#xed;tiva&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="271" value="Cumaral&#x9;-&#x9;Meta"/>
+                    <StringItem index="272" value="Cumaribo&#x9;-&#x9;Vichada"/>
+                    <StringItem index="273" value="Cumbal&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="274" value="Cumbitara&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="275" value="Cunday&#x9;-&#x9;Tolima"/>
+                    <StringItem index="276" value="Curillo&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="277" value="Curit&#xed;&#x9;-&#x9;Santander"/>
+                    <StringItem index="278" value="Curuman&#xed;&#x9;-&#x9;Cesar"/>
+                    <StringItem index="279" value="Dabeiba&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="280" value="Dagua&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="281" value="Dibulla&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="282" value="Distracci&#xf3;n&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="283" value="Dolores&#x9;-&#x9;Tolima"/>
+                    <StringItem index="284" value="Don Mat&#xed;as&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="285" value="Dosquebradas&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="286" value="Duitama&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="287" value="Duran&#xed;a&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="288" value="Eb&#xe9;jico&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="289" value="El &#xc1;guila&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="290" value="El Bagre&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="291" value="El Banco&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="292" value="El Cairo&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="293" value="El Calvario&#x9;-&#x9;Meta"/>
+                    <StringItem index="294" value="El Cant&#xf3;n de San Pablo&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="295" value="El Carmen&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="296" value="El Carmen de Atrato&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="297" value="El Carmen de Chucur&#xed;&#x9;-&#x9;Santander"/>
+                    <StringItem index="298" value="El Carmen de Viboral&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="299" value="El Carmen del Dari&#xe9;n&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="300" value="El Castillo&#x9;-&#x9;Meta"/>
+                    <StringItem index="301" value="El Cerrito&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="302" value="El Charco&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="303" value="El Cocuy&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="304" value="El Colegio&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="305" value="El Copey&#x9;-&#x9;Cesar"/>
+                    <StringItem index="306" value="El Doncello&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="307" value="El Dorado&#x9;-&#x9;Meta"/>
+                    <StringItem index="308" value="El Dovio&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="309" value="El Encanto&#x9;-&#x9;Amazonas"/>
+                    <StringItem index="310" value="El Espino&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="311" value="El Guacamayo&#x9;-&#x9;Santander"/>
+                    <StringItem index="312" value="El Guamo&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="313" value="El Molino&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="314" value="El Paso&#x9;-&#x9;Cesar"/>
+                    <StringItem index="315" value="El Paujil&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="316" value="El Pe&#xf1;ol&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="317" value="El Pe&#xf1;&#xf3;n&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="318" value="El Pe&#xf1;&#xf3;n&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="319" value="El Pe&#xf1;&#xf3;n&#x9;-&#x9;Santander"/>
+                    <StringItem index="320" value="El Pi&#xf1;&#xf3;n&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="321" value="El Pital&#x9;-&#x9;Huila"/>
+                    <StringItem index="322" value="El Play&#xf3;n&#x9;-&#x9;Santander"/>
+                    <StringItem index="323" value="El Ret&#xe9;n&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="324" value="El Retorno&#x9;-&#x9;Guaviare"/>
+                    <StringItem index="325" value="El Roble&#x9;-&#x9;Sucre"/>
+                    <StringItem index="326" value="El Rosal&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="327" value="El Rosario&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="328" value="El Santuario&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="329" value="El Tabl&#xf3;n&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="330" value="El Tambo&#x9;-&#x9;Cauca"/>
+                    <StringItem index="331" value="El Tambo&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="332" value="El Tarra&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="333" value="El Zulia&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="334" value="El&#xed;as&#x9;-&#x9;Huila"/>
+                    <StringItem index="335" value="Encino&#x9;-&#x9;Santander"/>
+                    <StringItem index="336" value="Enciso&#x9;-&#x9;Santander"/>
+                    <StringItem index="337" value="Entrerr&#xed;os&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="338" value="Envigado&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="339" value="Espinal&#x9;-&#x9;Tolima"/>
+                    <StringItem index="340" value="Facatativ&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="341" value="Falan&#x9;-&#x9;Tolima"/>
+                    <StringItem index="342" value="Filadelfia&#x9;-&#x9;Caldas"/>
+                    <StringItem index="343" value="Filandia&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="344" value="Firavitoba&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="345" value="Flandes&#x9;-&#x9;Tolima"/>
+                    <StringItem index="346" value="Florencia&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="347" value="Florencia&#x9;-&#x9;Cauca"/>
+                    <StringItem index="348" value="Floresta&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="349" value="Flori&#xe1;n&#x9;-&#x9;Santander"/>
+                    <StringItem index="350" value="Florida&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="351" value="Floridablanca&#x9;-&#x9;Santander"/>
+                    <StringItem index="352" value="F&#xf3;meque&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="353" value="Fonseca&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="354" value="Fortul&#x9;-&#x9;Arauca"/>
+                    <StringItem index="355" value="Fosca&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="356" value="Francisco Pizarro&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="357" value="Fredonia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="358" value="Fresno&#x9;-&#x9;Tolima"/>
+                    <StringItem index="359" value="Frontino&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="360" value="Fuente de oro&#x9;-&#x9;Meta"/>
+                    <StringItem index="361" value="Fundaci&#xf3;n&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="362" value="Funes&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="363" value="Funza&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="364" value="F&#xfa;quene&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="365" value="Fusagasug&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="366" value="Gachal&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="367" value="Gachancip&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="368" value="Gachantiv&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="369" value="Gachet&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="370" value="Gal&#xe1;n&#x9;-&#x9;Santander"/>
+                    <StringItem index="371" value="Galapa&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="372" value="Galeras&#x9;-&#x9;Sucre"/>
+                    <StringItem index="373" value="Gama&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="374" value="Gamarra&#x9;-&#x9;Cesar"/>
+                    <StringItem index="375" value="G&#xe1;mbita&#x9;-&#x9;Santander"/>
+                    <StringItem index="376" value="G&#xe1;meza&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="377" value="Garagoa&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="378" value="Garz&#xf3;n&#x9;-&#x9;Huila"/>
+                    <StringItem index="379" value="G&#xe9;nova&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="380" value="Gigante&#x9;-&#x9;Huila"/>
+                    <StringItem index="381" value="Ginebra&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="382" value="Giraldo&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="383" value="Girardot&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="384" value="Girardota&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="385" value="G&#xf3;mez Plata&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="386" value="Gonz&#xe1;lez&#x9;-&#x9;Cesar"/>
+                    <StringItem index="387" value="Gramalote&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="388" value="Granada&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="389" value="Granada&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="390" value="Granada&#x9;-&#x9;Meta"/>
+                    <StringItem index="391" value="Guaca&#x9;-&#x9;Santander"/>
+                    <StringItem index="392" value="Guacamayas&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="393" value="Guacar&#xed;&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="394" value="Guachet&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="395" value="Guachucal&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="396" value="Guadalajara de Buga&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="397" value="Guadalupe&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="398" value="Guadalupe&#x9;-&#x9;Huila"/>
+                    <StringItem index="399" value="Guadalupe&#x9;-&#x9;Santander"/>
+                    <StringItem index="400" value="Guaduas&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="401" value="Guaitarilla&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="402" value="Gualmat&#xe1;n&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="403" value="Guamal&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="404" value="Guamal&#x9;-&#x9;Meta"/>
+                    <StringItem index="405" value="Guamo&#x9;-&#x9;Tolima"/>
+                    <StringItem index="406" value="Guapi&#x9;-&#x9;Cauca"/>
+                    <StringItem index="407" value="Guapot&#xe1;&#x9;-&#x9;Santander"/>
+                    <StringItem index="408" value="Guaranda&#x9;-&#x9;Sucre"/>
+                    <StringItem index="409" value="Guarne&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="410" value="Guasca&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="411" value="Guatap&#xe9;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="412" value="Guataqu&#xed;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="413" value="Guatavita&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="414" value="Guateque&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="415" value="Gu&#xe1;tica&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="416" value="Guavat&#xe1;&#x9;-&#x9;Santander"/>
+                    <StringItem index="417" value="Guayabal de S&#xed;quima&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="418" value="Guayabetal&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="419" value="Guayat&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="420" value="G&#xfc;epsa&#x9;-&#x9;Santander"/>
+                    <StringItem index="421" value="G&#xfc;ic&#xe1;n&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="422" value="Guti&#xe9;rrez&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="423" value="Hacar&#xed;&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="424" value="Hatillo de Loba&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="425" value="Hato&#x9;-&#x9;Santander"/>
+                    <StringItem index="426" value="Hato Corozal&#x9;-&#x9;Casanare"/>
+                    <StringItem index="427" value="Hatonuevo&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="428" value="Heliconia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="429" value="Herr&#xe1;n&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="430" value="Herveo&#x9;-&#x9;Tolima"/>
+                    <StringItem index="431" value="Hispania&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="432" value="Hobo&#x9;-&#x9;Huila"/>
+                    <StringItem index="433" value="Honda&#x9;-&#x9;Tolima"/>
+                    <StringItem index="434" value="Ibagu&#xe9;&#x9;-&#x9;Tolima"/>
+                    <StringItem index="435" value="Icononzo&#x9;-&#x9;Tolima"/>
+                    <StringItem index="436" value="Iles&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="437" value="Imu&#xe9;s&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="438" value="In&#xed;rida&#x9;-&#x9;Guain&#xed;a"/>
+                    <StringItem index="439" value="Inz&#xe1;&#x9;-&#x9;Cauca"/>
+                    <StringItem index="440" value="Ipiales&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="441" value="Iquira&#x9;-&#x9;Huila"/>
+                    <StringItem index="442" value="Isnos&#x9;-&#x9;Huila"/>
+                    <StringItem index="443" value="Istmina&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="444" value="Itag&#xfc;&#xed;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="445" value="Ituango&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="446" value="Iza&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="447" value="Jambal&#xf3;&#x9;-&#x9;Cauca"/>
+                    <StringItem index="448" value="Jamund&#xed;&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="449" value="Jard&#xed;n&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="450" value="Jenesano&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="451" value="Jeric&#xf3;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="452" value="Jeric&#xf3;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="453" value="Jerusal&#xe9;n&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="454" value="Jes&#xfa;s Mar&#xed;a&#x9;-&#x9;Santander"/>
+                    <StringItem index="455" value="Jord&#xe1;n&#x9;-&#x9;Santander"/>
+                    <StringItem index="456" value="Juan de Acosta&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="457" value="Jun&#xed;n&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="458" value="Jurad&#xf3;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="459" value="La Apartada&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="460" value="La Argentina&#x9;-&#x9;Huila"/>
+                    <StringItem index="461" value="La Belleza&#x9;-&#x9;Santander"/>
+                    <StringItem index="462" value="La Calera&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="463" value="La Capilla&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="464" value="La Ceja&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="465" value="La Celia&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="466" value="La Chorrera&#x9;-&#x9;Amazonas"/>
+                    <StringItem index="467" value="La Cruz&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="468" value="La Cumbre&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="469" value="La Dorada&#x9;-&#x9;Caldas"/>
+                    <StringItem index="470" value="La Esperanza&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="471" value="La Estrella&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="472" value="La Florida&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="473" value="La Gloria&#x9;-&#x9;Cesar"/>
+                    <StringItem index="474" value="La Guadalupe&#x9;-&#x9;Guain&#xed;a"/>
+                    <StringItem index="475" value="La Jagua de Ibirico&#x9;-&#x9;Cesar"/>
+                    <StringItem index="476" value="La Jagua del Pilar&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="477" value="La Llanada&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="478" value="La Macarena&#x9;-&#x9;Meta"/>
+                    <StringItem index="479" value="La Merced&#x9;-&#x9;Caldas"/>
+                    <StringItem index="480" value="La Mesa&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="481" value="La Monta&#xf1;ita&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="482" value="La Palma&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="483" value="La Paz&#x9;-&#x9;Cesar"/>
+                    <StringItem index="484" value="La Paz&#x9;-&#x9;Santander"/>
+                    <StringItem index="485" value="La Pedrera&#x9;-&#x9;Amazonas"/>
+                    <StringItem index="486" value="La Pe&#xf1;a&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="487" value="La Pintada&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="488" value="La Plata&#x9;-&#x9;Huila"/>
+                    <StringItem index="489" value="La Playa de Bel&#xe9;n&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="490" value="La Primavera&#x9;-&#x9;Vichada"/>
+                    <StringItem index="491" value="La Salina&#x9;-&#x9;Casanare"/>
+                    <StringItem index="492" value="La Sierra&#x9;-&#x9;Cauca"/>
+                    <StringItem index="493" value="La Tebaida&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="494" value="La Tola&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="495" value="La Uni&#xf3;n&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="496" value="La Uni&#xf3;n&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="497" value="La Uni&#xf3;n&#x9;-&#x9;Sucre"/>
+                    <StringItem index="498" value="La Uni&#xf3;n&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="499" value="La Uribe&#x9;-&#x9;Meta"/>
+                    <StringItem index="500" value="La Uvita&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="501" value="La Vega&#x9;-&#x9;Cauca"/>
+                    <StringItem index="502" value="La Vega&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="503" value="La Victoria&#x9;-&#x9;Amazonas"/>
+                    <StringItem index="504" value="La Victoria&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="505" value="La Victoria&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="506" value="La Virginia&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="507" value="Labateca&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="508" value="Labranzagrande&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="509" value="Land&#xe1;zuri&#x9;-&#x9;Santander"/>
+                    <StringItem index="510" value="Lebrija&#x9;-&#x9;Santander"/>
+                    <StringItem index="511" value="Leiva&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="512" value="Lejan&#xed;as&#x9;-&#x9;Meta"/>
+                    <StringItem index="513" value="Lenguazaque&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="514" value="L&#xe9;rida&#x9;-&#x9;Tolima"/>
+                    <StringItem index="515" value="Leticia&#x9;-&#x9;Amazonas"/>
+                    <StringItem index="516" value="L&#xed;bano&#x9;-&#x9;Tolima"/>
+                    <StringItem index="517" value="Liborina&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="518" value="Linares&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="519" value="Litoral del San Juan&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="520" value="Llor&#xf3;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="521" value="L&#xf3;pez de Micay&#x9;-&#x9;Cauca"/>
+                    <StringItem index="522" value="Los Andes&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="523" value="Los C&#xf3;rdobas&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="524" value="Los Palmitos&#x9;-&#x9;Sucre"/>
+                    <StringItem index="525" value="Los Patios&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="526" value="Los Santos&#x9;-&#x9;Santander"/>
+                    <StringItem index="527" value="Lourdes&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="528" value="Luruaco&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="529" value="Macanal&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="530" value="Macaravita&#x9;-&#x9;Santander"/>
+                    <StringItem index="531" value="Maceo&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="532" value="Machet&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="533" value="Madrid&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="534" value="Magangu&#xe9;&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="535" value="Mag&#xfc;&#xed; Pay&#xe1;n&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="536" value="Mahates&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="537" value="Maicao&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="538" value="Majagual&#x9;-&#x9;Sucre"/>
+                    <StringItem index="539" value="M&#xe1;laga&#x9;-&#x9;Santander"/>
+                    <StringItem index="540" value="Malambo&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="541" value="Mallama&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="542" value="Manat&#xed;&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="543" value="Manaure&#x9;-&#x9;Cesar"/>
+                    <StringItem index="544" value="Manaure&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="545" value="Man&#xed;&#x9;-&#x9;Casanare"/>
+                    <StringItem index="546" value="Manizales&#x9;-&#x9;Caldas"/>
+                    <StringItem index="547" value="Manta&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="548" value="Manzanares&#x9;-&#x9;Caldas"/>
+                    <StringItem index="549" value="Mapirip&#xe1;n&#x9;-&#x9;Meta"/>
+                    <StringItem index="550" value="Mapiripana&#x9;-&#x9;Guain&#xed;a"/>
+                    <StringItem index="551" value="Margarita&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="552" value="Mar&#xed;a La Baja&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="553" value="Marinilla&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="554" value="Marip&#xed;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="555" value="Mariquita&#x9;-&#x9;Tolima"/>
+                    <StringItem index="556" value="Marmato&#x9;-&#x9;Caldas"/>
+                    <StringItem index="557" value="Marquetalia&#x9;-&#x9;Caldas"/>
+                    <StringItem index="558" value="Marsella&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="559" value="Marulanda&#x9;-&#x9;Caldas"/>
+                    <StringItem index="560" value="Matanza&#x9;-&#x9;Santander"/>
+                    <StringItem index="561" value="Medell&#xed;n&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="562" value="Medina&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="563" value="Medio Atrato&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="564" value="Medio Baud&#xf3;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="565" value="Medio San Juan&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="566" value="Melgar&#x9;-&#x9;Tolima"/>
+                    <StringItem index="567" value="Mercaderes&#x9;-&#x9;Cauca"/>
+                    <StringItem index="568" value="Mesetas&#x9;-&#x9;Meta"/>
+                    <StringItem index="569" value="Mil&#xe1;n&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="570" value="Miraflores&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="571" value="Miraflores&#x9;-&#x9;Guaviare"/>
+                    <StringItem index="572" value="Miranda&#x9;-&#x9;Cauca"/>
+                    <StringItem index="573" value="Mirit&#xed;-Paran&#xe1;&#x9;-&#x9;Amazonas"/>
+                    <StringItem index="574" value="Mistrat&#xf3;&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="575" value="Mit&#xfa;&#x9;-&#x9;Vaup&#xe9;s"/>
+                    <StringItem index="576" value="Mocoa&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="577" value="Mogotes&#x9;-&#x9;Santander"/>
+                    <StringItem index="578" value="Molagavita&#x9;-&#x9;Santander"/>
+                    <StringItem index="579" value="Momil&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="580" value="Mongua&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="581" value="Mongu&#xed;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="582" value="Moniquir&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="583" value="Montebello&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="584" value="Montecristo&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="585" value="Montel&#xed;bano&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="586" value="Montenegro&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="587" value="Monter&#xed;a&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="588" value="Monterrey&#x9;-&#x9;Casanare"/>
+                    <StringItem index="589" value="Mo&#xf1;itos&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="590" value="Morales&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="591" value="Morales&#x9;-&#x9;Cauca"/>
+                    <StringItem index="592" value="Morelia&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="593" value="Morichal Nuevo&#x9;-&#x9;Guain&#xed;a"/>
+                    <StringItem index="594" value="Morroa&#x9;-&#x9;Sucre"/>
+                    <StringItem index="595" value="Mosquera&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="596" value="Mosquera&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="597" value="Motavita&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="598" value="Murillo&#x9;-&#x9;Tolima"/>
+                    <StringItem index="599" value="Murind&#xf3;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="600" value="Mutat&#xe1;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="601" value="Mutiscua&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="602" value="Muzo&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="603" value="Nari&#xf1;o&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="604" value="Nari&#xf1;o&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="605" value="Nari&#xf1;o&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="606" value="N&#xe1;taga&#x9;-&#x9;Huila"/>
+                    <StringItem index="607" value="Natagaima&#x9;-&#x9;Tolima"/>
+                    <StringItem index="608" value="Nech&#xed;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="609" value="Necocl&#xed;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="610" value="Neira&#x9;-&#x9;Caldas"/>
+                    <StringItem index="611" value="Neiva&#x9;-&#x9;Huila"/>
+                    <StringItem index="612" value="Nemoc&#xf3;n&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="613" value="Nilo&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="614" value="Nimaima&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="615" value="Nobsa&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="616" value="Nocaima&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="617" value="Norcasia&#x9;-&#x9;Caldas"/>
+                    <StringItem index="618" value="N&#xf3;vita&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="619" value="Nueva Granada&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="620" value="Nuevo Col&#xf3;n&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="621" value="Nunch&#xed;a&#x9;-&#x9;Casanare"/>
+                    <StringItem index="622" value="Nuqu&#xed;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="623" value="Obando&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="624" value="Ocamonte&#x9;-&#x9;Santander"/>
+                    <StringItem index="625" value="Oca&#xf1;a&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="626" value="Oiba&#x9;-&#x9;Santander"/>
+                    <StringItem index="627" value="Oicat&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="628" value="Olaya&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="629" value="Olaya Herrera&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="630" value="Onzaga&#x9;-&#x9;Santander"/>
+                    <StringItem index="631" value="Oporapa&#x9;-&#x9;Huila"/>
+                    <StringItem index="632" value="Orito&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="633" value="Orocu&#xe9;&#x9;-&#x9;Casanare"/>
+                    <StringItem index="634" value="Ortega&#x9;-&#x9;Tolima"/>
+                    <StringItem index="635" value="Ospina&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="636" value="Otanche&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="637" value="Ovejas&#x9;-&#x9;Sucre"/>
+                    <StringItem index="638" value="Pachavita&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="639" value="Pacho&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="640" value="Pacoa&#x9;-&#x9;Vaup&#xe9;s"/>
+                    <StringItem index="641" value="P&#xe1;cora&#x9;-&#x9;Caldas"/>
+                    <StringItem index="642" value="Padilla&#x9;-&#x9;Cauca"/>
+                    <StringItem index="643" value="P&#xe1;ez&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="644" value="P&#xe1;ez&#x9;-&#x9;Cauca"/>
+                    <StringItem index="645" value="Paicol&#x9;-&#x9;Huila"/>
+                    <StringItem index="646" value="Pailitas&#x9;-&#x9;Cesar"/>
+                    <StringItem index="647" value="Paime&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="648" value="Paipa&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="649" value="Pajarito&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="650" value="Palermo&#x9;-&#x9;Huila"/>
+                    <StringItem index="651" value="Palestina&#x9;-&#x9;Caldas"/>
+                    <StringItem index="652" value="Palestina&#x9;-&#x9;Huila"/>
+                    <StringItem index="653" value="Palmar&#x9;-&#x9;Santander"/>
+                    <StringItem index="654" value="Palmar de Varela&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="655" value="Palmas del Socorro&#x9;-&#x9;Santander"/>
+                    <StringItem index="656" value="Palmira&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="657" value="Palmito&#x9;-&#x9;Sucre"/>
+                    <StringItem index="658" value="Palocabildo&#x9;-&#x9;Tolima"/>
+                    <StringItem index="659" value="Pamplona&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="660" value="Pamplonita&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="661" value="Pana Pana&#x9;-&#x9;Guain&#xed;a"/>
+                    <StringItem index="662" value="Pandi&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="663" value="Panqueba&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="664" value="Papunahua&#x9;-&#x9;Vaup&#xe9;s"/>
+                    <StringItem index="665" value="P&#xe1;ramo&#x9;-&#x9;Santander"/>
+                    <StringItem index="666" value="Paratebueno&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="667" value="Pasca&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="668" value="Pat&#xed;a&#x9;-&#x9;Cauca"/>
+                    <StringItem index="669" value="Pauna&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="670" value="Paya&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="671" value="Paz de Ariporo&#x9;-&#x9;Casanare"/>
+                    <StringItem index="672" value="Paz de R&#xed;o&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="673" value="Pedraza&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="674" value="Pelaya&#x9;-&#x9;Cesar"/>
+                    <StringItem index="675" value="Pensilvania&#x9;-&#x9;Caldas"/>
+                    <StringItem index="676" value="Pe&#xf1;ol&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="677" value="Peque&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="678" value="Pereira&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="679" value="Pesca&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="680" value="Piamonte&#x9;-&#x9;Cauca"/>
+                    <StringItem index="681" value="Piedecuesta&#x9;-&#x9;Santander"/>
+                    <StringItem index="682" value="Piedras&#x9;-&#x9;Tolima"/>
+                    <StringItem index="683" value="Piendam&#xf3;&#x9;-&#x9;Cauca"/>
+                    <StringItem index="684" value="Pijao&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="685" value="Piji&#xf1;o del Carmen&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="686" value="Pinchote&#x9;-&#x9;Santander"/>
+                    <StringItem index="687" value="Pinillos&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="688" value="Pioj&#xf3;&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="689" value="Pisba&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="690" value="Pitalito&#x9;-&#x9;Huila"/>
+                    <StringItem index="691" value="Pivijay&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="692" value="Planadas&#x9;-&#x9;Tolima"/>
+                    <StringItem index="693" value="Planeta Rica&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="694" value="Plato&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="695" value="Policarpa&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="696" value="Polonuevo&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="697" value="Ponedera&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="698" value="Popay&#xe1;n&#x9;-&#x9;Cauca"/>
+                    <StringItem index="699" value="Pore&#x9;-&#x9;Casanare"/>
+                    <StringItem index="700" value="Potos&#xed;&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="701" value="Pradera&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="702" value="Prado&#x9;-&#x9;Tolima"/>
+                    <StringItem index="703" value="Providencia&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="704" value="Providencia&#x9;-&#x9;San Andr&#xe9;s y Providencia"/>
+                    <StringItem index="705" value="Pueblo Bello&#x9;-&#x9;Cesar"/>
+                    <StringItem index="706" value="Pueblo Nuevo&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="707" value="Pueblo Rico&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="708" value="Pueblorrico&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="709" value="Puebloviejo&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="710" value="Puente Nacional&#x9;-&#x9;Santander"/>
+                    <StringItem index="711" value="Puerres&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="712" value="Puerto Alegr&#xed;a&#x9;-&#x9;Amazonas"/>
+                    <StringItem index="713" value="Puerto Arica&#x9;-&#x9;Amazonas"/>
+                    <StringItem index="714" value="Puerto As&#xed;s&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="715" value="Puerto Berr&#xed;o&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="716" value="Puerto Boyac&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="717" value="Puerto Caicedo&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="718" value="Puerto Carre&#xf1;o&#x9;-&#x9;Vichada"/>
+                    <StringItem index="719" value="Puerto Colombia&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="720" value="Puerto Colombia&#x9;-&#x9;Guain&#xed;a"/>
+                    <StringItem index="721" value="Puerto Concordia&#x9;-&#x9;Meta"/>
+                    <StringItem index="722" value="Puerto Escondido&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="723" value="Puerto Gait&#xe1;n&#x9;-&#x9;Meta"/>
+                    <StringItem index="724" value="Puerto Guzm&#xe1;n&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="725" value="Puerto Legu&#xed;zamo&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="726" value="Puerto Libertador&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="727" value="Puerto Lleras&#x9;-&#x9;Meta"/>
+                    <StringItem index="728" value="Puerto L&#xf3;pez&#x9;-&#x9;Meta"/>
+                    <StringItem index="729" value="Puerto Nare&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="730" value="Puerto Nari&#xf1;o&#x9;-&#x9;Amazonas"/>
+                    <StringItem index="731" value="Puerto Parra&#x9;-&#x9;Santander"/>
+                    <StringItem index="732" value="Puerto Rico&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="733" value="Puerto Rico&#x9;-&#x9;Meta"/>
+                    <StringItem index="734" value="Puerto Rond&#xf3;n&#x9;-&#x9;Arauca"/>
+                    <StringItem index="735" value="Puerto Salgar&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="736" value="Puerto Santander&#x9;-&#x9;Amazonas"/>
+                    <StringItem index="737" value="Puerto Santander&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="738" value="Puerto Tejada&#x9;-&#x9;Cauca"/>
+                    <StringItem index="739" value="Puerto Triunfo&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="740" value="Puerto Wilches&#x9;-&#x9;Santander"/>
+                    <StringItem index="741" value="Pul&#xed;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="742" value="Pupiales&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="743" value="Purac&#xe9;&#x9;-&#x9;Cauca"/>
+                    <StringItem index="744" value="Purificaci&#xf3;n&#x9;-&#x9;Tolima"/>
+                    <StringItem index="745" value="Pur&#xed;sima&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="746" value="Quebradanegra&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="747" value="Quetame&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="748" value="Quibd&#xf3;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="749" value="Quimbaya&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="750" value="Quinch&#xed;a&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="751" value="Qu&#xed;pama&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="752" value="Quipile&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="753" value="Ragonvalia&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="754" value="Ramiriqu&#xed;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="755" value="R&#xe1;quira&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="756" value="Recetor&#x9;-&#x9;Casanare"/>
+                    <StringItem index="757" value="Regidor&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="758" value="Remedios&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="759" value="Remolino&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="760" value="Repel&#xf3;n&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="761" value="Restrepo&#x9;-&#x9;Meta"/>
+                    <StringItem index="762" value="Restrepo&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="763" value="Retiro&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="764" value="Ricaurte&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="765" value="Ricaurte&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="766" value="R&#xed;o de Oro&#x9;-&#x9;Cesar"/>
+                    <StringItem index="767" value="R&#xed;o Ir&#xf3;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="768" value="R&#xed;o Quito&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="769" value="R&#xed;o Viejo&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="770" value="Rioblanco&#x9;-&#x9;Tolima"/>
+                    <StringItem index="771" value="Riofr&#xed;o&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="772" value="Riohacha&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="773" value="Rionegro&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="774" value="Rionegro&#x9;-&#x9;Santander"/>
+                    <StringItem index="775" value="Riosucio&#x9;-&#x9;Caldas"/>
+                    <StringItem index="776" value="Riosucio&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="777" value="Risaralda&#x9;-&#x9;Caldas"/>
+                    <StringItem index="778" value="Rivera&#x9;-&#x9;Huila"/>
+                    <StringItem index="779" value="Roberto Pay&#xe1;n&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="780" value="Roldanillo&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="781" value="Roncesvalles&#x9;-&#x9;Tolima"/>
+                    <StringItem index="782" value="Rond&#xf3;n&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="783" value="Rosas&#x9;-&#x9;Cauca"/>
+                    <StringItem index="784" value="Rovira&#x9;-&#x9;Tolima"/>
+                    <StringItem index="785" value="Sabana de Torres&#x9;-&#x9;Santander"/>
+                    <StringItem index="786" value="Sabanagrande&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="787" value="Sabanalarga&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="788" value="Sabanalarga&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="789" value="Sabanalarga&#x9;-&#x9;Casanare"/>
+                    <StringItem index="790" value="Sabanas de San &#xc1;ngel&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="791" value="Sabaneta&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="792" value="Saboy&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="793" value="S&#xe1;cama&#x9;-&#x9;Casanare"/>
+                    <StringItem index="794" value="S&#xe1;chica&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="795" value="Sahag&#xfa;n&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="796" value="Saladoblanco&#x9;-&#x9;Huila"/>
+                    <StringItem index="797" value="Salamina&#x9;-&#x9;Caldas"/>
+                    <StringItem index="798" value="Salamina&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="799" value="Salazar de las Palmas&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="800" value="Salda&#xf1;a&#x9;-&#x9;Tolima"/>
+                    <StringItem index="801" value="Salento&#x9;-&#x9;Quind&#xed;o"/>
+                    <StringItem index="802" value="Salgar&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="803" value="Samac&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="804" value="Saman&#xe1;&#x9;-&#x9;Caldas"/>
+                    <StringItem index="805" value="Samaniego&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="806" value="Sampu&#xe9;s&#x9;-&#x9;Sucre"/>
+                    <StringItem index="807" value="San Agust&#xed;n&#x9;-&#x9;Huila"/>
+                    <StringItem index="808" value="San Alberto&#x9;-&#x9;Cesar"/>
+                    <StringItem index="809" value="San Andr&#xe9;s&#x9;-&#x9;San Andr&#xe9;s y Providencia"/>
+                    <StringItem index="810" value="San Andr&#xe9;s&#x9;-&#x9;Santander"/>
+                    <StringItem index="811" value="San Andr&#xe9;s de Cuerquia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="812" value="San Andr&#xe9;s de Sotavento&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="813" value="San Antero&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="814" value="San Antonio&#x9;-&#x9;Tolima"/>
+                    <StringItem index="815" value="San Antonio del Tequendama&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="816" value="San Benito&#x9;-&#x9;Santander"/>
+                    <StringItem index="817" value="San Benito Abad&#x9;-&#x9;Sucre"/>
+                    <StringItem index="818" value="San Bernardo&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="819" value="San Bernardo&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="820" value="San Bernardo del Viento&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="821" value="San Calixto&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="822" value="San Carlos&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="823" value="San Carlos&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="824" value="San Carlos de Guaroa&#x9;-&#x9;Meta"/>
+                    <StringItem index="825" value="San Cayetano&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="826" value="San Cayetano&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="827" value="San Crist&#xf3;bal&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="828" value="San Diego&#x9;-&#x9;Cesar"/>
+                    <StringItem index="829" value="San Eduardo&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="830" value="San Estanislao&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="831" value="San Felipe&#x9;-&#x9;Guain&#xed;a"/>
+                    <StringItem index="832" value="San Fernando&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="833" value="San Francisco&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="834" value="San Francisco&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="835" value="San Francisco&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="836" value="San Gil&#x9;-&#x9;Santander"/>
+                    <StringItem index="837" value="San Jacinto&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="838" value="San Jacinto del Cauca&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="839" value="San Jer&#xf3;nimo&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="840" value="San Joaqu&#xed;n&#x9;-&#x9;Santander"/>
+                    <StringItem index="841" value="San Jos&#xe9;&#x9;-&#x9;Caldas"/>
+                    <StringItem index="842" value="San Jos&#xe9; de la Monta&#xf1;a&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="843" value="San Jos&#xe9; de Miranda&#x9;-&#x9;Santander"/>
+                    <StringItem index="844" value="San Jos&#xe9; de Pare&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="845" value="San Jos&#xe9; del Fragua&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="846" value="San Jos&#xe9; del Guaviare&#x9;-&#x9;Guaviare"/>
+                    <StringItem index="847" value="San Jos&#xe9; del Palmar&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="848" value="San Juan Betulia&#x9;-&#x9;Sucre"/>
+                    <StringItem index="849" value="San Juan de Arama&#x9;-&#x9;Meta"/>
+                    <StringItem index="850" value="San Juan de Gir&#xf3;n&#x9;-&#x9;Santander"/>
+                    <StringItem index="851" value="San Juan de Pasto&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="852" value="San Juan de Rioseco&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="853" value="San Juan de Urab&#xe1;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="854" value="San Juan del Cesar&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="855" value="San Juan Nepomuceno&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="856" value="San Juanito&#x9;-&#x9;Meta"/>
+                    <StringItem index="857" value="San Lorenzo&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="858" value="San Luis&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="859" value="San Luis&#x9;-&#x9;Tolima"/>
+                    <StringItem index="860" value="San Luis de Gaceno&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="861" value="San Luis de Palenque&#x9;-&#x9;Casanare"/>
+                    <StringItem index="862" value="San Luis de Sinc&#xe9;&#x9;-&#x9;Sucre"/>
+                    <StringItem index="863" value="San Marcos&#x9;-&#x9;Sucre"/>
+                    <StringItem index="864" value="San Mart&#xed;n&#x9;-&#x9;Cesar"/>
+                    <StringItem index="865" value="San Mart&#xed;n&#x9;-&#x9;Meta"/>
+                    <StringItem index="866" value="San Mart&#xed;n de Loba&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="867" value="San Mateo&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="868" value="San Miguel&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="869" value="San Miguel&#x9;-&#x9;Santander"/>
+                    <StringItem index="870" value="San Miguel de Sema&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="871" value="San Onofre&#x9;-&#x9;Sucre"/>
+                    <StringItem index="872" value="San Pablo&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="873" value="San Pablo&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="874" value="San Pablo de Borbur&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="875" value="San Pedro&#x9;-&#x9;Sucre"/>
+                    <StringItem index="876" value="San Pedro&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="877" value="San Pedro de Cartago&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="878" value="San Pedro de los Milagros&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="879" value="San Pedro de Urab&#xe1;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="880" value="San Pelayo&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="881" value="San Rafael&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="882" value="San Roque&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="883" value="San Sebasti&#xe1;n&#x9;-&#x9;Cauca"/>
+                    <StringItem index="884" value="San Sebasti&#xe1;n de Buenavista&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="885" value="San Vicente&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="886" value="San Vicente de Chucur&#xed;&#x9;-&#x9;Santander"/>
+                    <StringItem index="887" value="San Vicente del Cagu&#xe1;n&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="888" value="San Zen&#xf3;n&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="889" value="Sandon&#xe1;&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="890" value="Santa Ana&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="891" value="Santa B&#xe1;rbara&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="892" value="Santa B&#xe1;rbara&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="893" value="Santa B&#xe1;rbara&#x9;-&#x9;Santander"/>
+                    <StringItem index="894" value="Santa B&#xe1;rbara de Pinto&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="895" value="Santa Catalina&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="896" value="Santa Cruz de Lorica&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="897" value="Santa Cruz de Mompox&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="898" value="Santa Fe de Antioquia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="899" value="Santa Helena del Op&#xf3;n&#x9;-&#x9;Santander"/>
+                    <StringItem index="900" value="Santa Isabel&#x9;-&#x9;Tolima"/>
+                    <StringItem index="901" value="Santa Luc&#xed;a&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="902" value="Santa Mar&#xed;a&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="903" value="Santa Mar&#xed;a&#x9;-&#x9;Huila"/>
+                    <StringItem index="904" value="Santa Marta&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="905" value="Santa Rosa&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="906" value="Santa Rosa&#x9;-&#x9;Cauca"/>
+                    <StringItem index="907" value="Santa Rosa de Cabal&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="908" value="Santa Rosa de Osos&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="909" value="Santa Rosa de Viterbo&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="910" value="Santa Rosa del Sur&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="911" value="Santa Rosal&#xed;a&#x9;-&#x9;Vichada"/>
+                    <StringItem index="912" value="Santa Sof&#xed;a&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="913" value="Santacruz&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="914" value="Santana&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="915" value="Santander de Quilichao&#x9;-&#x9;Cauca"/>
+                    <StringItem index="916" value="Santiago&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="917" value="Santiago&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="918" value="Santo Domingo&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="919" value="Santo Tom&#xe1;s&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="920" value="Santuario&#x9;-&#x9;Risaralda"/>
+                    <StringItem index="921" value="Sapuyes&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="922" value="Saravena&#x9;-&#x9;Arauca"/>
+                    <StringItem index="923" value="Sardinata&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="924" value="Sasaima&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="925" value="Sativanorte&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="926" value="Sativasur&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="927" value="Segovia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="928" value="Sesquil&#xe9;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="929" value="Sevilla&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="930" value="Siachoque&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="931" value="Sibat&#xe9;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="932" value="Sibundoy&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="933" value="Silos&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="934" value="Silvania&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="935" value="Silvia&#x9;-&#x9;Cauca"/>
+                    <StringItem index="936" value="Simacota&#x9;-&#x9;Santander"/>
+                    <StringItem index="937" value="Simijaca&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="938" value="Simit&#xed;&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="939" value="Sincelejo&#x9;-&#x9;Sucre"/>
+                    <StringItem index="940" value="Sip&#xed;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="941" value="Sitionuevo&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="942" value="Soacha&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="943" value="Soat&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="944" value="Socha&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="945" value="Socorro&#x9;-&#x9;Santander"/>
+                    <StringItem index="946" value="Socot&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="947" value="Sogamoso&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="948" value="Solano&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="949" value="Soledad&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="950" value="Solita&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="951" value="Somondoco&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="952" value="Sons&#xf3;n&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="953" value="Sopetr&#xe1;n&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="954" value="Soplaviento&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="955" value="Sop&#xf3;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="956" value="Sora&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="957" value="Sorac&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="958" value="Sotaquir&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="959" value="Sotara&#x9;-&#x9;Cauca"/>
+                    <StringItem index="960" value="Suaita&#x9;-&#x9;Santander"/>
+                    <StringItem index="961" value="Su&#xe1;n&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="962" value="Su&#xe1;rez&#x9;-&#x9;Cauca"/>
+                    <StringItem index="963" value="Su&#xe1;rez&#x9;-&#x9;Tolima"/>
+                    <StringItem index="964" value="Suaza&#x9;-&#x9;Huila"/>
+                    <StringItem index="965" value="Subachoque&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="966" value="Sucre&#x9;-&#x9;Cauca"/>
+                    <StringItem index="967" value="Sucre&#x9;-&#x9;Santander"/>
+                    <StringItem index="968" value="Sucre&#x9;-&#x9;Sucre"/>
+                    <StringItem index="969" value="Suesca&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="970" value="Supat&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="971" value="Sup&#xed;a&#x9;-&#x9;Caldas"/>
+                    <StringItem index="972" value="Surat&#xe1;&#x9;-&#x9;Santander"/>
+                    <StringItem index="973" value="Susa&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="974" value="Susac&#xf3;n&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="975" value="Sutamarch&#xe1;n&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="976" value="Sutatausa&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="977" value="Sutatenza&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="978" value="Tabio&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="979" value="Tad&#xf3;&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="980" value="Talaigua Nuevo&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="981" value="Tamalameque&#x9;-&#x9;Cesar"/>
+                    <StringItem index="982" value="T&#xe1;mara&#x9;-&#x9;Casanare"/>
+                    <StringItem index="983" value="Tame&#x9;-&#x9;Arauca"/>
+                    <StringItem index="984" value="T&#xe1;mesis&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="985" value="Taminango&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="986" value="Tangua&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="987" value="Taraira&#x9;-&#x9;Vaup&#xe9;s"/>
+                    <StringItem index="988" value="Tarapac&#xe1;&#x9;-&#x9;Amazonas"/>
+                    <StringItem index="989" value="Taraz&#xe1;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="990" value="Tarqui&#x9;-&#x9;Huila"/>
+                    <StringItem index="991" value="Tarso&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="992" value="Tasco&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="993" value="Tauramena&#x9;-&#x9;Casanare"/>
+                    <StringItem index="994" value="Tausa&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="995" value="Tello&#x9;-&#x9;Huila"/>
+                    <StringItem index="996" value="Tena&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="997" value="Tenerife&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="998" value="Tenjo&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="999" value="Tenza&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1000" value="Teorama&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="1001" value="Teruel&#x9;-&#x9;Huila"/>
+                    <StringItem index="1002" value="Tesalia&#x9;-&#x9;Huila"/>
+                    <StringItem index="1003" value="Tibacuy&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1004" value="Tiban&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1005" value="Tibasosa&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1006" value="Tibirit&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1007" value="Tib&#xfa;&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="1008" value="Tierralta&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="1009" value="Timan&#xe1;&#x9;-&#x9;Huila"/>
+                    <StringItem index="1010" value="Timb&#xed;o&#x9;-&#x9;Cauca"/>
+                    <StringItem index="1011" value="Timbiqu&#xed;&#x9;-&#x9;Cauca"/>
+                    <StringItem index="1012" value="Tinjac&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1013" value="Tipacoque&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1014" value="Tiquisio&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="1015" value="Titirib&#xed;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1016" value="Toca&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1017" value="Tocaima&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1018" value="Tocancip&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1019" value="Tog&#xfc;&#xed;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1020" value="Toledo&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1021" value="Toledo&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="1022" value="Tol&#xfa;&#x9;-&#x9;Sucre"/>
+                    <StringItem index="1023" value="Toluviejo&#x9;-&#x9;Sucre"/>
+                    <StringItem index="1024" value="Tona&#x9;-&#x9;Santander"/>
+                    <StringItem index="1025" value="T&#xf3;paga&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1026" value="Topaip&#xed;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1027" value="Toribio&#x9;-&#x9;Cauca"/>
+                    <StringItem index="1028" value="Toro&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="1029" value="Tota&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1030" value="Totor&#xf3;&#x9;-&#x9;Cauca"/>
+                    <StringItem index="1031" value="Trinidad&#x9;-&#x9;Casanare"/>
+                    <StringItem index="1032" value="Trujillo&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="1033" value="Tubar&#xe1;&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="1034" value="Tulu&#xe1;&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="1035" value="Tumaco&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="1036" value="Tunja&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1037" value="Tunungu&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1038" value="T&#xfa;querres&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="1039" value="Turbaco&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="1040" value="Turban&#xe1;&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="1041" value="Turbo&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1042" value="Turmequ&#xe9;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1043" value="Tuta&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1044" value="Tutaz&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1045" value="Ubal&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1046" value="Ubaque&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1047" value="Ubat&#xe9;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1048" value="Ulloa&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="1049" value="&#xda;mbita&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1050" value="Une&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1051" value="Ungu&#xed;a&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="1052" value="Uni&#xf3;n Panamericana&#x9;-&#x9;Choc&#xf3;"/>
+                    <StringItem index="1053" value="Uramita&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1054" value="Uribia&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="1055" value="Urrao&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1056" value="Urumita&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="1057" value="Usiacur&#xed;&#x9;-&#x9;Atl&#xe1;ntico"/>
+                    <StringItem index="1058" value="&#xda;tica&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1059" value="Valdivia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1060" value="Valencia&#x9;-&#x9;C&#xf3;rdoba"/>
+                    <StringItem index="1061" value="Valle de San Jos&#xe9;&#x9;-&#x9;Santander"/>
+                    <StringItem index="1062" value="Valle de San Juan&#x9;-&#x9;Tolima"/>
+                    <StringItem index="1063" value="Valle del Guamuez&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="1064" value="Valledupar&#x9;-&#x9;Cesar"/>
+                    <StringItem index="1065" value="Valpara&#xed;so&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1066" value="Valpara&#xed;so&#x9;-&#x9;Caquet&#xe1;"/>
+                    <StringItem index="1067" value="Vegach&#xed;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1068" value="V&#xe9;lez&#x9;-&#x9;Santander"/>
+                    <StringItem index="1069" value="Venadillo&#x9;-&#x9;Tolima"/>
+                    <StringItem index="1070" value="Venecia&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1071" value="Venecia&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1072" value="Ventaquemada&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1073" value="Vergara&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1074" value="Versalles&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="1075" value="Vetas&#x9;-&#x9;Santander"/>
+                    <StringItem index="1076" value="Vian&#xed;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1077" value="Victoria&#x9;-&#x9;Caldas"/>
+                    <StringItem index="1078" value="Vig&#xed;a del Fuerte&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1079" value="Vijes&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="1080" value="Villa Caro&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="1081" value="Villa de Leyva&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1082" value="Villa del Rosario&#x9;-&#x9;Norte de Santander"/>
+                    <StringItem index="1083" value="Villa Rica&#x9;-&#x9;Cauca"/>
+                    <StringItem index="1084" value="Villagarz&#xf3;n&#x9;-&#x9;Putumayo"/>
+                    <StringItem index="1085" value="Villag&#xf3;mez&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1086" value="Villahermosa&#x9;-&#x9;Tolima"/>
+                    <StringItem index="1087" value="Villamar&#xed;a&#x9;-&#x9;Caldas"/>
+                    <StringItem index="1088" value="Villanueva&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="1089" value="Villanueva&#x9;-&#x9;Casanare"/>
+                    <StringItem index="1090" value="Villanueva&#x9;-&#x9;La Guajira"/>
+                    <StringItem index="1091" value="Villanueva&#x9;-&#x9;Santander"/>
+                    <StringItem index="1092" value="Villapinz&#xf3;n&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1093" value="Villarrica&#x9;-&#x9;Tolima"/>
+                    <StringItem index="1094" value="Villavicencio&#x9;-&#x9;Meta"/>
+                    <StringItem index="1095" value="Villavieja&#x9;-&#x9;Huila"/>
+                    <StringItem index="1096" value="Villeta&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1097" value="Viot&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1098" value="Viracach&#xe1;&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1099" value="Vista Hermosa&#x9;-&#x9;Meta"/>
+                    <StringItem index="1100" value="Viterbo&#x9;-&#x9;Caldas"/>
+                    <StringItem index="1101" value="Yacop&#xed;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1102" value="Yacuanquer&#x9;-&#x9;Nari&#xf1;o"/>
+                    <StringItem index="1103" value="Yaguar&#xe1;&#x9;-&#x9;Huila"/>
+                    <StringItem index="1104" value="Yal&#xed;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1105" value="Yarumal&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1106" value="Yavarat&#xe9;&#x9;-&#x9;Vaup&#xe9;s"/>
+                    <StringItem index="1107" value="Yolomb&#xf3;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1108" value="Yond&#xf3;&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1109" value="Yopal&#x9;-&#x9;Casanare"/>
+                    <StringItem index="1110" value="Yotoco&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="1111" value="Yumbo&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="1112" value="Zambrano&#x9;-&#x9;Bol&#xed;var"/>
+                    <StringItem index="1113" value="Zapatoca&#x9;-&#x9;Santander"/>
+                    <StringItem index="1114" value="Zapay&#xe1;n&#x9;-&#x9;Magdalena"/>
+                    <StringItem index="1115" value="Zaragoza&#x9;-&#x9;Antioquia"/>
+                    <StringItem index="1116" value="Zarzal&#x9;-&#x9;Valle del Cauca"/>
+                    <StringItem index="1117" value="Zetaquira&#x9;-&#x9;Boyac&#xe1;"/>
+                    <StringItem index="1118" value="Zipac&#xf3;n&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1119" value="Zipaquir&#xe1;&#x9;-&#x9;Cundinamarca"/>
+                    <StringItem index="1120" value="Zona Bananera&#x9;-&#x9;Magdalena"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="propuestaCandi">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="biografiaCandi">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="smsCampana">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="guardarCandidato">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Guardar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="guardarCandidatoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="cancelarCandidato">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cancelar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelarCandidatoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Error_label">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Sitka Text" size="12" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextPane" name="documentoCandi">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cree una contrase&#xf1;a:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="contrasenaCandi">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Candidatos registrados">
+                <Property name="tabTitle" type="java.lang.String" value="Candidatos registrados"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="595" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="514" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tabla_candidato">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="3" rowCount="0">
+                        <Column editable="true" title="Candidato" type="java.lang.Object"/>
+                        <Column editable="true" title="Partido" type="java.lang.Object"/>
+                        <Column editable="true" title="Campa&#xf1;a" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
